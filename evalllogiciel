@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Évaluation Logiciel - Centre de Plongée</title>
+</head>
+<body>
+    <h1>Fiche d'Évaluation des Logiciels pour Centre de Plongée</h1>
+
+    <form action="https://github.com/Subagrec/evallogicielendpoint" method="POST">
+        <h3>1. Fonctionnalités</h3>
+        
+        <label>1.1 Gestion des réservations (clients individuels et groupes) :</label><br>
+        <input type="radio" name="reservations" value="Excellent"> Excellent<br>
+        <input type="radio" name="reservations" value="Bon"> Bon<br>
+        <input type="radio" name="reservations" value="Moyen"> Moyen<br>
+        <input type="radio" name="reservations" value="Mauvais"> Mauvais<br>
+        <input type="radio" name="reservations" value="Inexistant"> Inexistant<br>
+        <textarea name="remarks_reservations" placeholder="Remarques"></textarea><br><br>
+
+        <label>1.2 Suivi des plannings de plongées et des moniteurs :</label><br>
+        <input type="radio" name="plannings" value="Excellent"> Excellent<br>
+        <input type="radio" name="plannings" value="Bon"> Bon<br>
+        <input type="radio" name="plannings" value="Moyen"> Moyen<br>
+        <input type="radio" name="plannings" value="Mauvais"> Mauvais<br>
+        <input type="radio" name="plannings" value="Inexistant"> Inexistant<br>
+        <textarea name="remarks_plannings" placeholder="Remarques"></textarea><br><br>
+
+        <!-- Ajoutez des sections similaires pour les autres critères -->
+
+        <h3>Commentaires Généraux</h3>
+        <textarea name="general_comments" placeholder="Points forts, faiblesses, suggestions..."></textarea><br><br>
+
+        <button type="submit">Soumettre</button>
+    </form>
+</body>
+</html>
